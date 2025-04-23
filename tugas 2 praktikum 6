@@ -1,0 +1,21 @@
+#tugas program 2 praktikum 6
+def nilai(x,y,z):
+    total=(x*0.3)+(y*0.3)+(z*0.4)
+    if total>=90:
+        status="A"
+    elif total>=80:
+        status="B"
+    elif total>=70:
+        status="C"
+    elif total>=60:
+        status="D"
+    else:
+        status="E"
+    return status
+print("nilai mutu mahasiswa:",nilai(80,75,85))
+print("nilai mutu mahasiswa:",nilai(20,50,60))
+
+#NOTES
+#x=tugas harian
+#y=UTS
+#z=UAS
